@@ -1,5 +1,7 @@
 function App() {
-  return <div>HELLO</div>
+  return <div className="container bg-black">
+    Hello world
+  </div>
 }
 
 export default App
