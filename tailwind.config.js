@@ -2,14 +2,20 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        lg: '1140px',
+        xl: '1140px',
+        '2xl': '1140px'
+      }
+    },
     extend: {
-      container: {
-        center: true,
-      },
       fontFamily: {
         gemunu: ['Gemunu Libre', 'sans-serif'],
         open: ['Open Sans', 'sans-serif'],
       },
+
       colors: {
         'main-red': '#BC1A45',
         'main-melon': '#FFD369',

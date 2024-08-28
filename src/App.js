@@ -1,6 +1,8 @@
+import { Headers } from "./components/header/Headers"
+
 function App() {
-  return <div className="container bg-black">
-    Hello world
+  return <div className="">
+   <Headers/>
   </div>
 }
 
