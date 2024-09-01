@@ -1,9 +1,13 @@
-import { Headers } from "./components/header/Headers"
+import { Headers } from './components/header/Headers'
+import { HeroSection } from './components/Section/HeroSection'
 
 function App() {
-  return <div className="">
-   <Headers/>
-  </div>
+  return (
+    <div>
+      <Headers />
+      <HeroSection />
+    </div>
+  )
 }
 
 export default App

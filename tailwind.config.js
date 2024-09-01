@@ -7,8 +7,8 @@ module.exports = {
       screens: {
         lg: '1140px',
         xl: '1140px',
-        '2xl': '1140px'
-      }
+        '2xl': '1140px',
+      },
     },
     extend: {
       fontFamily: {
@@ -21,6 +21,10 @@ module.exports = {
         'main-melon': '#FFD369',
         'main-grey': '#DDDDDD',
         'main-white': '#F7F7F7',
+      },
+
+      spacing: {
+        128: '32rem',
       },
     },
   },
